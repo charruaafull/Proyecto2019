@@ -30,6 +30,7 @@
         <?php echo $content; ?>
     </div>
 </div>
+<?php require Yii::getPathOfAlias('application.views.layouts.footer') . '.php'; ?>
 
 </body>
 </html>

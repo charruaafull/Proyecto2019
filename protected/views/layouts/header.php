@@ -49,6 +49,9 @@
                                                     <a class="nav-link" name="inicio" href="./">Inicio</a>
                                                 </li>
                                                 <li class="nav-item">
+                                                    <a class="nav-link" name="carrito" href="cart">Carrito de Compras</a>
+                                                </li>
+                                                <li class="nav-item">
                                                     <a class="nav-link" name="contacto" href="contacto">Contacto</a>
                                                 </li>
                                             </ul>

@@ -2,6 +2,14 @@ body{
     font-size: 13px!important;
 }
 
+.footer{
+    min-height: 200px;
+}
+
+.bg-black{
+    background: #000000;
+}
+
 .nav-link{
     text-transform: uppercase;
 }
@@ -66,4 +74,10 @@ body{
 
 .thumbnail button{
     font-size: 12px;
+}
+
+/* Cart */
+
+.ul-product{
+    list-style: none;
 }

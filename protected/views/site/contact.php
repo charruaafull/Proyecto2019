@@ -18,7 +18,7 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="form-group">
+                <div class="form-group is-invalid">
                     <label for="mail">Mail</label>
                     <input class="form-control" name="mail" id="mail">
                 </div>
@@ -37,7 +37,7 @@
             </div>
             <div class="col-lg-12">
                 <div class="form-group">
-                    <button class="btn btn-block btn-success">Enviar Mensaje</button>
+                    <button class="btn btn-block btn-success" id="btn-send">Enviar Mensaje</button>
                 </div>
             </div>
         </div>

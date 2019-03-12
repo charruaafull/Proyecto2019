@@ -27,6 +27,7 @@
                 <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/vertical-banner.jpg" class="img-fluid">
             </div>
         </div>
+        <br>
     </div>
     <div class="col-lg-9">
         <!--Preload-->

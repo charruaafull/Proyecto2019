@@ -19,7 +19,8 @@ class SiteController extends Controller
                 'actions' => array(
                     'Index',
                     'Contacto',
-                    'ViewProducts'
+                    'ViewProducts',
+                    'Cart'
                 ),
                 'users' => array('*'),
             ),
@@ -65,6 +66,12 @@ class SiteController extends Controller
             $res = $this->renderPartial('viewProducts', array('listProducts' => $listProducts, 'nomCat' => $nomCat), true);
             echo json_encode($res);
         endif;
+    }
+
+    public function actionCart()
+    {
+        $this->pageTitle = 'Carrito de Compras - Tienda de Productos';
+        $this->render('cart');
     }
 
 
