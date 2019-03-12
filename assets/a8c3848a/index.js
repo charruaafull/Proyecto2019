@@ -1,0 +1,3 @@
+Jquery(function () {
+    alert();
+})

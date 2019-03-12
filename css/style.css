@@ -1,0 +1,69 @@
+body{
+    font-size: 13px!important;
+}
+
+.nav-link{
+    text-transform: uppercase;
+}
+
+.badge-info{
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.text-user-header {
+    font-size: 14px;
+    padding: 5px;
+}
+
+.bg-top {
+    border-top: 4px solid #000000;
+}
+
+.bg-grey {
+    background: #d3d3d32b;
+}
+
+.bg-menu {
+    border-bottom: 4px solid #000000;
+}
+
+.header{
+    margin-bottom: 10px;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.input-search {
+    padding: 2px;
+    font-size: 12px;
+    width: 100%;
+}
+
+.name-product{
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.description-product{
+    font-size: 12px;
+}
+
+.price{
+    font-weight: bold;
+}
+
+.thumbnail{
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 5px;
+    padding: 3px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.thumbnail button{
+    font-size: 12px;
+}
