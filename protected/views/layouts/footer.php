@@ -1,4 +1,4 @@
-<div class="container-fluid bg-black text-white">
+<div class="container-fluid bg-black text-white footer">
     <div class="row">
         <div class="col-lg-12">
             <div class="container">

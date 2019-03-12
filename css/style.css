@@ -2,10 +2,6 @@ body{
     font-size: 13px!important;
 }
 
-.footer{
-    min-height: 200px;
-}
-
 .bg-black{
     background: #000000;
 }
@@ -80,4 +76,9 @@ body{
 
 .ul-product{
     list-style: none;
+}
+
+/* Footer */
+.footer{
+    margin-top:20px;
 }
