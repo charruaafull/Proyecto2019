@@ -64,8 +64,10 @@ class SiteController extends Controller
         if (Yii::app()->request->getParam('cat')):
             $cat = Yii::app()->request->getParam('cat');
             $nomCat = trim(Yii::app()->request->getParam('nomCat'));
-            $listProducts = Consultas::getProductos($cat);
-            $res = $this->renderPartial('viewProducts', array('listProducts' => $listProducts, 'nomCat' => $nomCat), true);
+            $pag = (Yii::app()->request->getParam('pag')) ? Yii::app()->request->getParam('pag') : 1;
+            $listProducts = Consultas::getProductos($cat, $pag);
+            $totProducts = Consultas::getTotalProductos($cat);
+            $res = $this->renderPartial('viewProducts', array('listProducts' => $listProducts, 'totProducts' => $totProducts, 'nomCat' => $nomCat, 'nroCat' => $cat, 'nroPag' => $pag), true);
             echo CJSON::encode($res);
         endif;
     }
@@ -82,7 +84,8 @@ class SiteController extends Controller
             $idProd = Yii::app()->request->getParam('idProd');
             $product = Consultas::getProducto($idProd);
             $_SESSION['PROD'][$idProd] = $product;
-            echo CJSON::encode(true);
+            $totCart = count($_SESSION['PROD']);
+            echo CJSON::encode($totCart);
         endif;
     }
 

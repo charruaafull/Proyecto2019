@@ -21,7 +21,7 @@
                         <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/logo.png" class="img-fluid">
                     </div>
                     <div class="col-lg-6 col-4 text-right align-self-center">
-                        Carrito (<span id="cantCart">0</span>) <i class="fa fa-shopping-cart"></i>
+                        <a class="text-dark" href="cart">Carrito (<span id="cantCart"><?php echo count($_SESSION['PROD']); ?></span>) <i class="fa fa-shopping-cart"></i></a>
                     </div>
                 </div>
             </div>

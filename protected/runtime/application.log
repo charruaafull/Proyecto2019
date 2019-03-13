@@ -5607,3 +5607,1182 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
 ---
+2019/03/13 08:09:38 [error] [php] Invalid argument supplied for foreach() (C:\xampp7\htdocs\Proyecto\protected\views\site\cart.php:18)
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp7\htdocs\Proyecto\protected\controllers\SiteController.php(76): SiteController->render()
+#3 C:\xampp7\htdocs\Proyecto\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionCart()
+#4 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CFilterChain.php(133): SiteController->runAction()
+#6 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#9 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#12 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#13 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp7\htdocs\Proyecto\index.php(7): CWebApplication->run()
+REQUEST_URI=/Proyecto/cart
+in C:\xampp7\htdocs\Proyecto\protected\views\site\cart.php (18)
+in C:\xampp7\htdocs\Proyecto\protected\controllers\SiteController.php (76)
+in C:\xampp7\htdocs\Proyecto\index.php (7)
+2019/03/13 08:16:29 [error] [php] Undefined variable: pro (C:\xampp7\htdocs\Proyecto\protected\views\site\index.php:57)
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp7\htdocs\Proyecto\protected\controllers\SiteController.php(53): SiteController->render()
+#3 C:\xampp7\htdocs\Proyecto\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CFilterChain.php(133): SiteController->runAction()
+#6 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#9 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#12 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#13 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp7\htdocs\Proyecto\index.php(7): CWebApplication->run()
+REQUEST_URI=/Proyecto/
+in C:\xampp7\htdocs\Proyecto\protected\views\site\index.php (57)
+in C:\xampp7\htdocs\Proyecto\protected\controllers\SiteController.php (53)
+in C:\xampp7\htdocs\Proyecto\index.php (7)
+2019/03/13 08:31:43 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 08:32:04 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 08:40:53 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 08:41:01 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 08:41:24 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 08:41:33 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 08:41:45 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 08:42:03 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 08:43:16 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 08:44:37 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 08:45:22 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 08:46:10 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 08:46:15 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 08:46:16 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 08:46:20 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 08:46:44 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 08:47:56 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 08:48:29 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 08:48:31 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 08:52:23 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 08:52:24 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 08:52:25 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 08:52:26 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 08:52:29 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 08:52:35 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:07:29 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:08:07 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:08:17 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:08:21 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:09:03 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:09:03 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:09:03 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:09:03 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:09:19 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:09:19 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:09:19 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:09:19 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:09:21 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:09:30 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:09:33 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:11:45 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:12:11 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:12:22 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:12:28 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:12:36 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:13:31 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:13:39 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:13:49 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:14:10 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:14:11 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:14:12 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:14:12 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:14:17 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:14:18 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:14:19 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:14:19 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:14:19 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:14:37 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:14:50 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:14:54 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:15:48 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:15:49 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:15:49 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:16:17 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:16:43 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:18:00 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:18:08 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:18:57 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:19:46 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:20:52 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:21:14 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:21:32 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:24:39 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:24:43 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:25:33 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:25:51 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:25:58 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:25:59 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:26:07 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:29:03 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:29:26 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:29:36 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:31:42 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:34:39 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:47:29 [error] [exception.ArgumentCountError] ArgumentCountError: Too few arguments to function Consultas::getProductos(), 0 passed in C:\xampp7\htdocs\Proyecto\protected\controllers\SiteController.php on line 51 and exactly 2 expected in C:\xampp7\htdocs\Proyecto\protected\models\Consultas.php:6
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\protected\controllers\SiteController.php(51): Consultas::getProductos()
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#12 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#14 {main}
+REQUEST_URI=/Proyecto/
+HTTP_REFERER=http://localhost:7777/Proyecto/cart
+---
+2019/03/13 09:50:07 [error] [exception.Error] Error: Unsupported operand types in C:\xampp7\htdocs\Proyecto\protected\views\site\viewProducts.php:7
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CBaseController.php(126): require()
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp7\\htdoc...', Array, true)
+#2 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp7\\htdoc...', Array, true)
+#3 C:\xampp7\htdocs\Proyecto\protected\controllers\SiteController.php(69): CController->renderPartial('viewProducts', Array, true)
+#4 C:\xampp7\htdocs\Proyecto\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionViewProducts()
+#5 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(282): CController->run('viewproducts')
+#14 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/ViewProduc...')
+#15 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#17 {main}
+REQUEST_URI=/Proyecto/ViewProducts
+HTTP_REFERER=http://localhost:7777/Proyecto/
+---
+2019/03/13 09:52:58 [error] [system.db.CDbCommand] CDbCommand::fetch() falló: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*) as tot From Pro_Tbl Where Lin_Pro = 6' at line 1. La sentencia SQL ejecutada fue: Select tot(*) as tot From Pro_Tbl Where Lin_Pro = 6.
+in C:\xampp7\htdocs\Proyecto\protected\models\sistema.php (16)
+in C:\xampp7\htdocs\Proyecto\protected\models\Consultas.php (42)
+in C:\xampp7\htdocs\Proyecto\protected\controllers\SiteController.php (69)
+2019/03/13 09:52:58 [error] [exception.CDbException] CDbException: CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*) as tot From Pro_Tbl Where Lin_Pro = 6' at line 1. The SQL statement executed was: Select tot(*) as tot From Pro_Tbl Where Lin_Pro = 6 in C:\xampp7\htdocs\Proyecto\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\xampp7\htdocs\Proyecto\protected\models\sistema.php(16): CDbCommand->queryRow()
+#2 C:\xampp7\htdocs\Proyecto\protected\models\Consultas.php(42): sistema::getFila('Select tot(*) a...')
+#3 C:\xampp7\htdocs\Proyecto\protected\controllers\SiteController.php(69): Consultas::getTotalProductos('6')
+#4 C:\xampp7\htdocs\Proyecto\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionViewProducts()
+#5 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(282): CController->run('viewproducts')
+#14 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/ViewProduc...')
+#15 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#17 {main}
+REQUEST_URI=/Proyecto/ViewProducts
+HTTP_REFERER=http://localhost:7777/Proyecto/
+---
+2019/03/13 09:53:14 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:53:15 [error] [system.db.CDbCommand] CDbCommand::fetch() falló: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*) as tot From Pro_Tbl Where Lin_Pro = 3' at line 1. La sentencia SQL ejecutada fue: Select tot(*) as tot From Pro_Tbl Where Lin_Pro = 3.
+in C:\xampp7\htdocs\Proyecto\protected\models\sistema.php (16)
+in C:\xampp7\htdocs\Proyecto\protected\models\Consultas.php (42)
+in C:\xampp7\htdocs\Proyecto\protected\controllers\SiteController.php (69)
+2019/03/13 09:53:15 [error] [exception.CDbException] CDbException: CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*) as tot From Pro_Tbl Where Lin_Pro = 3' at line 1. The SQL statement executed was: Select tot(*) as tot From Pro_Tbl Where Lin_Pro = 3 in C:\xampp7\htdocs\Proyecto\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\xampp7\htdocs\Proyecto\protected\models\sistema.php(16): CDbCommand->queryRow()
+#2 C:\xampp7\htdocs\Proyecto\protected\models\Consultas.php(42): sistema::getFila('Select tot(*) a...')
+#3 C:\xampp7\htdocs\Proyecto\protected\controllers\SiteController.php(69): Consultas::getTotalProductos('3')
+#4 C:\xampp7\htdocs\Proyecto\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionViewProducts()
+#5 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(282): CController->run('viewproducts')
+#14 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/ViewProduc...')
+#15 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#17 {main}
+REQUEST_URI=/Proyecto/ViewProducts
+HTTP_REFERER=http://localhost:7777/Proyecto/
+---
+2019/03/13 09:53:42 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:55:04 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:59:36 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 09:59:38 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 10:00:56 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 10:01:29 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 10:01:58 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 10:05:46 [error] [php] Undefined variable: offset (C:\xampp7\htdocs\Proyecto\protected\models\Consultas.php:22)
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CFilterChain.php(133): SiteController->runAction()
+#2 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#5 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\xampp7\htdocs\Proyecto\index.php(7): CWebApplication->run()
+REQUEST_URI=/Proyecto/ViewProducts
+in C:\xampp7\htdocs\Proyecto\protected\models\Consultas.php (22)
+in C:\xampp7\htdocs\Proyecto\protected\controllers\SiteController.php (68)
+in C:\xampp7\htdocs\Proyecto\index.php (7)
+2019/03/13 10:05:49 [error] [php] Undefined variable: offset (C:\xampp7\htdocs\Proyecto\protected\models\Consultas.php:22)
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CFilterChain.php(133): SiteController->runAction()
+#2 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#5 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\xampp7\htdocs\Proyecto\index.php(7): CWebApplication->run()
+REQUEST_URI=/Proyecto/ViewProducts
+in C:\xampp7\htdocs\Proyecto\protected\models\Consultas.php (22)
+in C:\xampp7\htdocs\Proyecto\protected\controllers\SiteController.php (68)
+in C:\xampp7\htdocs\Proyecto\index.php (7)
+2019/03/13 10:05:55 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 10:05:59 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 10:06:02 [error] [php] Undefined variable: offset (C:\xampp7\htdocs\Proyecto\protected\models\Consultas.php:22)
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CFilterChain.php(133): SiteController->runAction()
+#2 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#5 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\xampp7\htdocs\Proyecto\index.php(7): CWebApplication->run()
+REQUEST_URI=/Proyecto/ViewProducts
+in C:\xampp7\htdocs\Proyecto\protected\models\Consultas.php (22)
+in C:\xampp7\htdocs\Proyecto\protected\controllers\SiteController.php (68)
+in C:\xampp7\htdocs\Proyecto\index.php (7)
+2019/03/13 10:06:13 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 10:08:28 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 10:09:13 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 10:09:16 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 10:09:30 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 10:14:54 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 10:20:11 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 10:20:11 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 10:20:11 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 10:20:11 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 10:20:12 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 10:20:12 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 10:27:06 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 10:28:37 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 10:30:20 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 10:30:23 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 10:30:26 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 10:30:33 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 10:31:00 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 10:31:49 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 10:32:50 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 10:32:51 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 10:33:26 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 10:35:00 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 10:36:50 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 10:37:02 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 10:37:13 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 10:37:21 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/13 10:37:39 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---

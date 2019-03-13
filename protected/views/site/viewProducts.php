@@ -1,9 +1,15 @@
-<div class="col-lg-12 text-center text-uppercase text-dark">
+<?php
+!(@dir(Yii::app()->assetManager->getPublishedUrl(Yii::getPathOfAlias('application.views.site.viewProducts') . '.js'))) ? Yii::app()->assetManager->publish(Yii::getPathOfAlias('application.views.site') . '/viewProducts.js') : null;
+?>
+
+
+    <div class="col-lg-12 text-center text-uppercase text-dark">
     <strong><?php echo $nomCat; ?></strong>
 </div>
 <div class="row">
     <?php
     if (isset($listProducts) && count($listProducts) > 0):
+    $totPag = $totProducts / 9;
     foreach ($listProducts as $Lp): ?>
         <div class="col-lg-4 col-md-4 col-12">
             <div class="thumbnail">
@@ -37,11 +43,15 @@
     <div class="col-lg-12 text-center">
         <nav>
             <ul class="pagination justify-content-center">
-                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <?php for ($i = 1; $i <= $totPag; $i++): ?>
+                    <li class="page-item <?php echo ($i == $nroPag) ? 'active' : ''; ?>"><a nroCat="<?php echo $nroCat; ?>" nomCat="<?php echo $nomCat; ?>" nroPag="<?php echo $i; ?>" class="page-link" href="#"><?php echo $i; ?></a></li>
+                <?php endfor; ?>
             </ul>
         </nav>
     </div>
 </div>
 <?php endif; ?>
+
+<script type="text/javascript"
+        src="<?php echo Yii::app()->assetManager->getPublishedUrl(Yii::getPathOfAlias('application.views.site.viewProducts') . '.js') ?>">
+</script>

@@ -13,54 +13,85 @@ $products = Yii::app()->session['PROD'];
                 </div>
             </div>
             <div class="card-body">
-                <?php
-                $tot = 0;
-                foreach ($products as $pro):
-                    $tot += 5;
-                    ?>
-                    <div class="row" divProd="<?php echo $pro['Id_Pro']; ?>">
-                        <div class="col-lg-9">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="d-inline-block">
-                                        <img class="img-fluid" src="http://placehold.it/100x70">
-                                    </div>
-                                    <div class="d-inline-block">
-                                        <ul class="ul-product">
-                                            <li><?php echo $pro['Nom_Pro']; ?></li>
-                                            <li>Nombre producto</li>
-                                            <li>Nombre producto</li>
-                                        </ul>
-                                    </div>
-                                </div>
+                <div class="row">
+                    <div class="col-lg-9 col-4">
+                        <strong>PRODUCTO</strong>
+                    </div>
+                    <div class="col-lg-3 col-8">
+                        <div class="row">
+                            <div class="col-lg-6 col-4 text-right align-self-center">
+                                <strong>Precio</strong>
                             </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="row">
-                                <div class="col-lg-6 text-right align-self-center">
-                                    25.00
-                                </div>
-                                <div class="col-lg-3">
-                                    <input type="text" class="form-control input-sm" value="1">
-                                </div>
-                                <div class="col-lg-3 align-self-center">
-                                    <a href="#" tag="lnk-del" idProd="<?php echo $pro['Id_Pro']; ?>"><i
-                                                class="fa fa-trash-o"></i></a>
-                                </div>
+                            <div class="col-lg-3 col-4 text-center">
+                                <strong>Cant.</strong>
+                            </div>
+                            <div class="col-lg-3 col-4 align-self-center text-center">
+                                <strong>Acc.</strong>
                             </div>
                         </div>
                     </div>
-                    <hr divProd="<?php echo $pro['Id_Pro']; ?>">
-                <?php endforeach; ?>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <?php
+                $tot = 0;
+                if (isset($products) && count($products) > 0):
+                    foreach ($products as $pro):
+                        $tot += $pro['Pre_Pro']; ?>
+                        <div class="row" divProd="<?php echo $pro['Id_Pro']; ?>">
+                            <div class="col-lg-9 col-4">
+                                <div class="row">
+                                    <div class="col-lg-2 d-none d-sm-block">
+                                        <img class="img-fluid" src="http://placehold.it/100x70">
+                                    </div>
+                                    <div class="col-lg-8 text-uppercase">
+                                        <?php echo $pro['Nom_Pro']; ?><br>
+                                        Marca<br>
+                                        Modelo
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-8">
+                                <div class="row">
+                                    <div class="col-lg-6 col-4 text-right align-self-center">
+                                        <span tag="nroPre" idProd="<?php echo $pro['Id_Pro']; ?>"><?php echo $pro['Pre_Pro']; ?></span>
+                                    </div>
+                                    <div class="col-lg-3 col-4 text-center">
+                                        <input type="text" maxlength="1" tag="inpPro"
+                                               idProd="<?php echo $pro['Id_Pro']; ?>" class="form-control input-sm"
+                                               value="1">
+                                    </div>
+                                    <div class="col-lg-3 col-4 align-self-center text-center">
+                                        <a href="#" class="text-dark" tag="lnk-del"
+                                           idProd="<?php echo $pro['Id_Pro']; ?>"><i
+                                                    class="fa fa-trash-o"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr divProd="<?php echo $pro['Id_Pro']; ?>">
+                    <?php endforeach;
+                else: ?>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            No se agregaron productos
+                        </div>
+                    </div>
+                <?php endif; ?>
+            </div>
+            <div class="card-footer">
+                <div class="col-lg-12 align-self-center text-right">
+                    Total <strong>$ <span id="tot"><?php echo $tot; ?></span></strong>
+                </div>
             </div>
             <div class="card-footer">
                 <div class="row text-center">
-                    <div class="col-lg-9">
-                        <h4 class="text-right">Total <strong>$ <?php echo $tot; ?></strong></h4>
-                    </div>
-                    <div class="col-lg-3">
-                        <button type="button" class="btn btn-success btn-block">
-                            Terminar
+                    <div class="col-lg-12 text-right">
+                        <button type="button" class="btn btn-success">
+                            Terminar <i class="fa fa-check"></i>
                         </button>
                     </div>
                 </div>
