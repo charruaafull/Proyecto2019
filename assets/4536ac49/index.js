@@ -29,15 +29,15 @@ $(function () {
     /* Productos */
 
     $('[tag=lnk-add]').click(function (e) {
-        var idProd = $(this).attr('idProd');
-        AddProduct(idProd);
+        var idPro = $(this).attr('idPro');
+        AddProduct(idPro);
         e.preventDefault();
     });
 
-    function AddProduct(idProd) {
+    function AddProduct(idPro) {
         $.ajax({
             url: 'AddProduct',
-            data: {idProd: idProd},
+            data: {idPro: idPro},
             type: 'post',
             dataType: 'json',
             success: function (data) {

@@ -18,7 +18,6 @@
                             $649.99
                         </div>
                     </div>
-                    <p class="description-product">Texto...</p>
                     <div class="row">
                         <div class="col-md-6">
                             <button class="btn btn-block btn-info">Ver más</button>
@@ -29,7 +28,6 @@
                             </button>
                         </div>
                     </div>
-                    <p></p>
                 </div>
             </div>
         </div>

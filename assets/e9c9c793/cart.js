@@ -14,9 +14,7 @@ $(function () {
             type: 'post',
             dataType: 'json',
             success: function (data) {
-                if (data) {
-                    $('[divProd=' + idProd + ']').slideUp(200);
-                }
+
             }
         });
     }

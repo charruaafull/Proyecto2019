@@ -28,7 +28,9 @@ return array(
                 '<controller:\w+>/<action:\w+>' => '<controller>/<action>',
                 'contacto' => 'site/Contacto',
                 'ViewProducts' => 'site/ViewProducts',
-                'Cart' => 'site/Cart'
+                'Cart' => 'site/Cart',
+                'AddProduct' => 'site/AddProduct',
+                'DeleteProductCart' => 'site/DeleteProductCart'
             ),
         ),
         // database settings are configured in database.php

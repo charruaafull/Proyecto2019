@@ -4965,3 +4965,645 @@ Stack trace:
 #20 {main}
 REQUEST_URI=/Proyecto2019/
 ---
+2019/03/12 18:04:12 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---
+2019/03/12 19:54:55 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---
+2019/03/12 20:00:12 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---
+2019/03/12 20:00:26 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---
+2019/03/12 20:11:13 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---
+2019/03/12 20:11:41 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---
+2019/03/12 20:11:51 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---
+2019/03/12 20:11:52 [error] [php] Indirect modification of overloaded element of CHttpSession has no effect (C:\xampp\htdocs\Proyecto2019\protected\controllers\SiteController.php:83)
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilterChain.php(133): SiteController->runAction()
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#4 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Proyecto2019\index.php(7): CWebApplication->run()
+REQUEST_URI=/Proyecto2019/AddProduct
+in C:\xampp\htdocs\Proyecto2019\protected\controllers\SiteController.php (83)
+in C:\xampp\htdocs\Proyecto2019\index.php (7)
+2019/03/12 20:12:01 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---
+2019/03/12 20:12:14 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---
+2019/03/12 20:13:34 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---
+2019/03/12 20:13:35 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---
+2019/03/12 20:13:36 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---
+2019/03/12 20:13:38 [error] [php] Indirect modification of overloaded element of CHttpSession has no effect (C:\xampp\htdocs\Proyecto2019\protected\controllers\SiteController.php:83)
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilterChain.php(133): SiteController->runAction()
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#4 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Proyecto2019\index.php(7): CWebApplication->run()
+REQUEST_URI=/Proyecto2019/AddProduct
+in C:\xampp\htdocs\Proyecto2019\protected\controllers\SiteController.php (83)
+in C:\xampp\htdocs\Proyecto2019\index.php (7)
+2019/03/12 20:13:45 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---
+2019/03/12 20:13:46 [error] [php] Indirect modification of overloaded element of CHttpSession has no effect (C:\xampp\htdocs\Proyecto2019\protected\controllers\SiteController.php:83)
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilterChain.php(133): SiteController->runAction()
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#4 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Proyecto2019\index.php(7): CWebApplication->run()
+REQUEST_URI=/Proyecto2019/AddProduct
+in C:\xampp\htdocs\Proyecto2019\protected\controllers\SiteController.php (83)
+in C:\xampp\htdocs\Proyecto2019\index.php (7)
+2019/03/12 20:14:01 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---
+2019/03/12 20:14:02 [error] [php] Indirect modification of overloaded element of CHttpSession has no effect (C:\xampp\htdocs\Proyecto2019\protected\controllers\SiteController.php:83)
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilterChain.php(133): SiteController->runAction()
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#4 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Proyecto2019\index.php(7): CWebApplication->run()
+REQUEST_URI=/Proyecto2019/AddProduct
+in C:\xampp\htdocs\Proyecto2019\protected\controllers\SiteController.php (83)
+in C:\xampp\htdocs\Proyecto2019\index.php (7)
+2019/03/12 20:14:22 [error] [php] Indirect modification of overloaded element of CHttpSession has no effect (C:\xampp\htdocs\Proyecto2019\protected\controllers\SiteController.php:83)
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilterChain.php(133): SiteController->runAction()
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#4 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Proyecto2019\index.php(7): CWebApplication->run()
+REQUEST_URI=/Proyecto2019/AddProduct
+in C:\xampp\htdocs\Proyecto2019\protected\controllers\SiteController.php (83)
+in C:\xampp\htdocs\Proyecto2019\index.php (7)
+2019/03/12 20:14:24 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---
+2019/03/12 20:14:26 [error] [php] Indirect modification of overloaded element of CHttpSession has no effect (C:\xampp\htdocs\Proyecto2019\protected\controllers\SiteController.php:83)
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilterChain.php(133): SiteController->runAction()
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#4 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Proyecto2019\index.php(7): CWebApplication->run()
+REQUEST_URI=/Proyecto2019/AddProduct
+in C:\xampp\htdocs\Proyecto2019\protected\controllers\SiteController.php (83)
+in C:\xampp\htdocs\Proyecto2019\index.php (7)
+2019/03/12 20:14:39 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---
+2019/03/12 20:15:05 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---
+2019/03/12 20:15:06 [error] [php] Indirect modification of overloaded element of CHttpSession has no effect (C:\xampp\htdocs\Proyecto2019\protected\controllers\SiteController.php:83)
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilterChain.php(133): SiteController->runAction()
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#4 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Proyecto2019\index.php(7): CWebApplication->run()
+REQUEST_URI=/Proyecto2019/AddProduct
+in C:\xampp\htdocs\Proyecto2019\protected\controllers\SiteController.php (83)
+in C:\xampp\htdocs\Proyecto2019\index.php (7)
+2019/03/12 20:16:18 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---
+2019/03/12 20:16:18 [error] [php] Indirect modification of overloaded element of CHttpSession has no effect (C:\xampp\htdocs\Proyecto2019\protected\controllers\SiteController.php:83)
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilterChain.php(133): SiteController->runAction()
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#4 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Proyecto2019\index.php(7): CWebApplication->run()
+REQUEST_URI=/Proyecto2019/AddProduct
+in C:\xampp\htdocs\Proyecto2019\protected\controllers\SiteController.php (83)
+in C:\xampp\htdocs\Proyecto2019\index.php (7)
+2019/03/12 20:16:27 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---
+2019/03/12 20:16:27 [error] [php] Indirect modification of overloaded element of CHttpSession has no effect (C:\xampp\htdocs\Proyecto2019\protected\controllers\SiteController.php:83)
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilterChain.php(133): SiteController->runAction()
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#4 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Proyecto2019\index.php(7): CWebApplication->run()
+REQUEST_URI=/Proyecto2019/AddProduct
+in C:\xampp\htdocs\Proyecto2019\protected\controllers\SiteController.php (83)
+in C:\xampp\htdocs\Proyecto2019\index.php (7)
+2019/03/12 20:16:39 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---
+2019/03/12 20:16:54 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---
+2019/03/12 20:18:09 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---
+2019/03/12 20:18:10 [error] [php] Indirect modification of overloaded element of CHttpSession has no effect (C:\xampp\htdocs\Proyecto2019\protected\controllers\SiteController.php:83)
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilterChain.php(133): SiteController->runAction()
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#4 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Proyecto2019\index.php(7): CWebApplication->run()
+REQUEST_URI=/Proyecto2019/AddProduct
+in C:\xampp\htdocs\Proyecto2019\protected\controllers\SiteController.php (83)
+in C:\xampp\htdocs\Proyecto2019\index.php (7)
+2019/03/12 20:18:11 [error] [php] Indirect modification of overloaded element of CHttpSession has no effect (C:\xampp\htdocs\Proyecto2019\protected\controllers\SiteController.php:83)
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilterChain.php(133): SiteController->runAction()
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#4 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Proyecto2019\index.php(7): CWebApplication->run()
+REQUEST_URI=/Proyecto2019/AddProduct
+in C:\xampp\htdocs\Proyecto2019\protected\controllers\SiteController.php (83)
+in C:\xampp\htdocs\Proyecto2019\index.php (7)
+2019/03/12 20:19:54 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---
+2019/03/12 20:19:55 [error] [php] Indirect modification of overloaded element of CHttpSession has no effect (C:\xampp\htdocs\Proyecto2019\protected\controllers\SiteController.php:84)
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilterChain.php(133): SiteController->runAction()
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#4 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Proyecto2019\index.php(7): CWebApplication->run()
+REQUEST_URI=/Proyecto2019/AddProduct
+in C:\xampp\htdocs\Proyecto2019\protected\controllers\SiteController.php (84)
+in C:\xampp\htdocs\Proyecto2019\index.php (7)
+2019/03/12 20:19:56 [error] [php] Indirect modification of overloaded element of CHttpSession has no effect (C:\xampp\htdocs\Proyecto2019\protected\controllers\SiteController.php:84)
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilterChain.php(133): SiteController->runAction()
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#4 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Proyecto2019\index.php(7): CWebApplication->run()
+REQUEST_URI=/Proyecto2019/AddProduct
+in C:\xampp\htdocs\Proyecto2019\protected\controllers\SiteController.php (84)
+in C:\xampp\htdocs\Proyecto2019\index.php (7)
+2019/03/12 20:20:35 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---
+2019/03/12 20:20:36 [error] [php] Indirect modification of overloaded element of CHttpSession has no effect (C:\xampp\htdocs\Proyecto2019\protected\controllers\SiteController.php:85)
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilterChain.php(133): SiteController->runAction()
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#4 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Proyecto2019\index.php(7): CWebApplication->run()
+REQUEST_URI=/Proyecto2019/AddProduct
+in C:\xampp\htdocs\Proyecto2019\protected\controllers\SiteController.php (85)
+in C:\xampp\htdocs\Proyecto2019\index.php (7)
+2019/03/12 20:20:37 [error] [php] Indirect modification of overloaded element of CHttpSession has no effect (C:\xampp\htdocs\Proyecto2019\protected\controllers\SiteController.php:85)
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilterChain.php(133): SiteController->runAction()
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#4 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Proyecto2019\index.php(7): CWebApplication->run()
+REQUEST_URI=/Proyecto2019/AddProduct
+in C:\xampp\htdocs\Proyecto2019\protected\controllers\SiteController.php (85)
+in C:\xampp\htdocs\Proyecto2019\index.php (7)
+2019/03/12 20:21:57 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---
+2019/03/12 20:30:15 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---
+2019/03/12 20:30:21 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---
+2019/03/12 20:30:22 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---
+2019/03/12 20:30:22 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---
+2019/03/12 20:30:22 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---
+2019/03/12 20:30:39 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---
+2019/03/12 20:30:53 [error] [php] Undefined offset: 46 (C:\xampp\htdocs\Proyecto2019\protected\controllers\SiteController.php:93)
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilterChain.php(133): SiteController->runAction()
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#4 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Proyecto2019\index.php(7): CWebApplication->run()
+REQUEST_URI=/Proyecto2019/DeleteProductCart
+in C:\xampp\htdocs\Proyecto2019\protected\controllers\SiteController.php (93)
+in C:\xampp\htdocs\Proyecto2019\index.php (7)
+2019/03/12 20:32:21 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\Proyecto2019\protected\views\site\cart.php:16)
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\Proyecto2019\protected\controllers\SiteController.php(76): SiteController->render()
+#3 C:\xampp\htdocs\Proyecto2019\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionCart()
+#4 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilterChain.php(133): SiteController->runAction()
+#6 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#9 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#12 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#13 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\Proyecto2019\index.php(7): CWebApplication->run()
+REQUEST_URI=/Proyecto2019/cart
+in C:\xampp\htdocs\Proyecto2019\protected\views\site\cart.php (16)
+in C:\xampp\htdocs\Proyecto2019\protected\controllers\SiteController.php (76)
+in C:\xampp\htdocs\Proyecto2019\index.php (7)
+2019/03/12 20:32:28 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\Proyecto2019\protected\views\site\cart.php:16)
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\Proyecto2019\protected\controllers\SiteController.php(76): SiteController->render()
+#3 C:\xampp\htdocs\Proyecto2019\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionCart()
+#4 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilterChain.php(133): SiteController->runAction()
+#6 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#9 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#12 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#13 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\Proyecto2019\index.php(7): CWebApplication->run()
+REQUEST_URI=/Proyecto2019/cart
+in C:\xampp\htdocs\Proyecto2019\protected\views\site\cart.php (16)
+in C:\xampp\htdocs\Proyecto2019\protected\controllers\SiteController.php (76)
+in C:\xampp\htdocs\Proyecto2019\index.php (7)
+2019/03/12 20:32:37 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---
+2019/03/12 20:32:42 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---
+2019/03/12 20:36:30 [error] [php] Undefined variable: pro (C:\xampp\htdocs\Proyecto2019\protected\views\site\cart.php:29)
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\Proyecto2019\protected\controllers\SiteController.php(76): SiteController->render()
+#3 C:\xampp\htdocs\Proyecto2019\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionCart()
+#4 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilterChain.php(133): SiteController->runAction()
+#6 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#9 C:\xampp\htdocs\Proyecto2019\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#12 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#13 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\Proyecto2019\index.php(7): CWebApplication->run()
+REQUEST_URI=/Proyecto2019/cart
+in C:\xampp\htdocs\Proyecto2019\protected\views\site\cart.php (29)
+in C:\xampp\htdocs\Proyecto2019\protected\controllers\SiteController.php (76)
+in C:\xampp\htdocs\Proyecto2019\index.php (7)
+2019/03/12 20:40:25 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---
+2019/03/12 20:41:19 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---
+2019/03/12 20:41:38 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---
+2019/03/12 20:45:10 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---
+2019/03/12 20:45:21 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---
+2019/03/12 20:47:53 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---
+2019/03/12 20:48:41 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto2019\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\Proyecto2019\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Proyecto2019\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto2019/css/bootstrap.min.css.map
+---

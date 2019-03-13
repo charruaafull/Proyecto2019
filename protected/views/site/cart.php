@@ -1,4 +1,5 @@
 <?php
+$products = Yii::app()->session['PROD'];
 !(@dir(Yii::app()->assetManager->getPublishedUrl(Yii::getPathOfAlias('application.views.site.cart') . '.js'))) ? Yii::app()->assetManager->publish(Yii::getPathOfAlias('application.views.site') . '/cart.js') : null;
 ?>
 <div class="row">
@@ -12,8 +13,12 @@
                 </div>
             </div>
             <div class="card-body">
-                <?php for ($i = 0; $i < 6; $i++): ?>
-                    <div class="row">
+                <?php
+                $tot = 0;
+                foreach ($products as $pro):
+                    $tot += 5;
+                    ?>
+                    <div class="row" divProd="<?php echo $pro['Id_Pro']; ?>">
                         <div class="col-lg-9">
                             <div class="row">
                                 <div class="col-lg-12">
@@ -22,7 +27,7 @@
                                     </div>
                                     <div class="d-inline-block">
                                         <ul class="ul-product">
-                                            <li>Nombre producto</li>
+                                            <li><?php echo $pro['Nom_Pro']; ?></li>
                                             <li>Nombre producto</li>
                                             <li>Nombre producto</li>
                                         </ul>
@@ -39,18 +44,19 @@
                                     <input type="text" class="form-control input-sm" value="1">
                                 </div>
                                 <div class="col-lg-3 align-self-center">
-                                    <i class="fa fa-trash-o"></i>
+                                    <a href="#" tag="lnk-del" idProd="<?php echo $pro['Id_Pro']; ?>"><i
+                                                class="fa fa-trash-o"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <hr>
-                <?php endfor; ?>
+                    <hr divProd="<?php echo $pro['Id_Pro']; ?>">
+                <?php endforeach; ?>
             </div>
             <div class="card-footer">
                 <div class="row text-center">
                     <div class="col-lg-9">
-                        <h4 class="text-right">Total <strong>$50.00</strong></h4>
+                        <h4 class="text-right">Total <strong>$ <?php echo $tot; ?></strong></h4>
                     </div>
                     <div class="col-lg-3">
                         <button type="button" class="btn btn-success btn-block">

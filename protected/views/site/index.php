@@ -50,25 +50,23 @@
                             <img src="http://placehold.it/650x450&text=Galaxy S5" class="img-fluid">
                             <div class="caption">
                                 <div class="row">
-                                    <div class="col-md-8 col-xs-6 name-product">
+                                    <div class="col-md-12 col-xs-6 text-center name-product">
                                         <?php echo $Lp['Nom_Pro']; ?>
                                     </div>
-                                    <div class="col-md-4 col-xs-6 price text-right">
+                                    <div class="col-md-12 col-xs-6 price text-right">
                                         $649.99
                                     </div>
                                 </div>
-                                <p class="description-product">Texto...</p>
                                 <div class="row">
                                     <div class="col-md-6 col-6">
-                                        <button class="btn btn-block btn-info">Ver más</button>
+                                        <button class="btn btn-block btn-info">Ver detalle</button>
                                     </div>
                                     <div class="col-md-6 col-6">
-                                        <button class="btn btn-block btn-success">Agregar <i
+                                        <button tag="lnk-add" idProd="<?php echo $Lp['Id_Pro']; ?>" class="btn btn-block btn-success">Agregar <i
                                                     class="fa fa-shopping-cart"></i>
                                         </button>
                                     </div>
                                 </div>
-                                <p></p>
                             </div>
                         </div>
                     </div>

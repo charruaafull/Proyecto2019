@@ -4,7 +4,7 @@
 
 <div class="card">
     <div class="card-header">
-        Contacto
+        CONTACTO
     </div>
     <div class="card-body">
         <div class="row">

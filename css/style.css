@@ -2,6 +2,12 @@ body{
     font-size: 13px!important;
 }
 
+/* Header */
+
+.active{
+    font-weight: 600;
+}
+
 .bg-black{
     background: #000000;
 }
@@ -36,19 +42,15 @@ body{
     margin-bottom: 10px;
 }
 
+/* End header */
+
 .cursor-pointer{
     cursor: pointer;
 }
 
-.input-search {
-    padding: 2px;
-    font-size: 12px;
-    width: 100%;
-}
-
 .name-product{
-    font-weight: bold;
-    font-size: 14px;
+    font-weight: 600;
+    font-size: 13px;
     text-transform: capitalize;
 }
 
@@ -57,7 +59,8 @@ body{
 }
 
 .price{
-    font-weight: bold;
+    font-weight: 600;
+    font-size: 13px;
 }
 
 .thumbnail{

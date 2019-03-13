@@ -14,6 +14,12 @@ class Consultas
         return sistema::getFilas($sql);
     }
 
+    public static function getProducto($prod)
+    {
+        $sql = "Select * From Pro_Tbl Where Id_Pro = $prod";
+        return sistema::getFila($sql);
+    }
+
     public static function getCategorias()
     {
         $sql = "Select * From Lin_Tbl";

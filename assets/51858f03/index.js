@@ -34,7 +34,7 @@ $(function () {
         e.preventDefault();
     });
 
-    function AddProduct(idProd) {
+    function AddProduct(idPro) {
         $.ajax({
             url: 'AddProduct',
             data: {idProd: idProd},

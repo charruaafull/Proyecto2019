@@ -15,7 +15,7 @@ $(function () {
             dataType: 'json',
             success: function (data) {
                 if (data) {
-                    $('[divProd=' + idProd + ']').slideUp(200);
+                    $('[divProd=' + idProd + ']').slideUp(300);
                 }
             }
         });

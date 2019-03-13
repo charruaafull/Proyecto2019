@@ -20,7 +20,9 @@ class SiteController extends Controller
                     'Index',
                     'Contacto',
                     'ViewProducts',
-                    'Cart'
+                    'Cart',
+                    'AddProduct',
+                    'DeleteProductCart'
                 ),
                 'users' => array('*'),
             ),
@@ -64,7 +66,7 @@ class SiteController extends Controller
             $nomCat = trim(Yii::app()->request->getParam('nomCat'));
             $listProducts = Consultas::getProductos($cat);
             $res = $this->renderPartial('viewProducts', array('listProducts' => $listProducts, 'nomCat' => $nomCat), true);
-            echo json_encode($res);
+            echo CJSON::encode($res);
         endif;
     }
 
@@ -72,6 +74,25 @@ class SiteController extends Controller
     {
         $this->pageTitle = 'Carrito de Compras - Tienda de Productos';
         $this->render('cart');
+    }
+
+    public function actionAddProduct()
+    {
+        if (Yii::app()->request->getParam('idProd')):
+            $idProd = Yii::app()->request->getParam('idProd');
+            $product = Consultas::getProducto($idProd);
+            $_SESSION['PROD'][$idProd] = $product;
+            echo CJSON::encode(true);
+        endif;
+    }
+
+    public function actionDeleteProductCart()
+    {
+        if (Yii::app()->request->getParam('idProd')):
+            $idProd = Yii::app()->request->getParam('idProd');
+            unset($_SESSION['PROD'][$idProd]);
+            echo CJSON::encode(true);
+        endif;
     }
 
 
