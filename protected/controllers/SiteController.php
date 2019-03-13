@@ -22,7 +22,13 @@ class SiteController extends Controller
                     'ViewProducts',
                     'Cart',
                     'AddProduct',
-                    'DeleteProductCart'
+                    'DeleteProductCart',
+                    'ChangeCantidad',
+                    'Register',
+                    'ValidaRegistro',
+                    'Login',
+                    'AjaxValidaLogin',
+                    'Logout'
                 ),
                 'users' => array('*'),
             ),
@@ -53,6 +59,18 @@ class SiteController extends Controller
         $this->render('index', array('listProducts' => $listProducts, 'categories' => $categories));
     }
 
+    public function actionLogin()
+    {
+        $this->pageTitle = 'Tienda de Productos - Login';
+        $this->render('login');
+    }
+
+    public function actionRegister()
+    {
+        $this->pageTitle = 'Tienda de Productos - Registrate';
+        $this->render('register');
+    }
+
     public function actionContacto()
     {
         $this->pageTitle = 'Contacto - Tienda de Productos';
@@ -74,16 +92,24 @@ class SiteController extends Controller
 
     public function actionCart()
     {
+        if (!isset(Yii::app()->session['USU'])):
+            $this->redirect('login');
+        endif;
         $this->pageTitle = 'Carrito de Compras - Tienda de Productos';
         $this->render('cart');
     }
 
     public function actionAddProduct()
     {
+        if (!isset(Yii::app()->session['USU'])):
+            echo CJSON::encode(false);
+            Yii::app()->end();
+        endif;
         if (Yii::app()->request->getParam('idProd')):
             $idProd = Yii::app()->request->getParam('idProd');
             $product = Consultas::getProducto($idProd);
             $_SESSION['PROD'][$idProd] = $product;
+            $_SESSION['PROD'][$idProd]['Cant'] = 1;
             $totCart = count($_SESSION['PROD']);
             echo CJSON::encode($totCart);
         endif;
@@ -98,22 +124,31 @@ class SiteController extends Controller
         endif;
     }
 
+    public function actionChangeCantidad()
+    {
+        if (Yii::app()->request->getParam('idProd') && Yii::app()->request->getParam('cant')):
+            $idProd = Yii::app()->request->getParam('idProd');
+            $cant = Yii::app()->request->getParam('cant');
+            $_SESSION['PROD'][$idProd]['Cant'] = $cant;
+        endif;
+    }
 
-    /*public function actionAjaxValidaRegistro()
+
+    public function actionValidaRegistro()
     {
         $model = new frm_registro();
 
-        $model->nom = (Yii::app()->request->getParam('reg-nom')) ? Yii::app()->request->getParam('reg-nom') : '';
-        $model->equ = (Yii::app()->request->getParam('reg-equ')) ? Yii::app()->request->getParam('reg-equ') : '';
-        $model->psw = (Yii::app()->request->getParam('reg-psw')) ? Yii::app()->request->getParam('reg-psw') : '';
-        $model->cps = (Yii::app()->request->getParam('reg-cps')) ? Yii::app()->request->getParam('reg-cps') : '';
-        $model->eml = (Yii::app()->request->getParam('reg-eml')) ? Yii::app()->request->getParam('reg-eml') : '';
+        $model->username = (Yii::app()->request->getParam('username')) ? Yii::app()->request->getParam('username') : '';
+        $model->name = (Yii::app()->request->getParam('name')) ? Yii::app()->request->getParam('name') : '';
+        $model->surname = (Yii::app()->request->getParam('surname')) ? Yii::app()->request->getParam('surname') : '';
+        $model->email = (Yii::app()->request->getParam('email')) ? Yii::app()->request->getParam('email') : '';
+        $model->password = (Yii::app()->request->getParam('password')) ? Yii::app()->request->getParam('password') : '';
 
         if ($model->validate()):
             $res = array(
                 'error' => false,
             );
-            Consultas_Lgc::nuevoUsuario($model->nom, $model->psw, $model->equ, $model->eml, 1);
+            Consultas::nuevoUsuario($model->username, $model->name, $model->surname, $model->email, $model->password);
         else:
             $res = array(
                 'error' => true,
@@ -121,6 +156,33 @@ class SiteController extends Controller
             );
         endif;
         echo CJSON::encode($res);
-    }*/
+    }
+
+    public function actionAjaxValidaLogin()
+    {
+        $model = new Login_Mdl();
+
+        $model->username = Yii::app()->request->getParam('username');
+        $model->password = Yii::app()->request->getParam('password');
+
+        if ($model->validate()):
+            $res = array(
+                'error' => false,
+            );
+        else:
+            $res = array(
+                'error' => true,
+                'info' => $model->errors,
+            );
+        endif;
+
+        echo CJSON::encode($res);
+    }
+
+    public function actionLogout()
+    {
+        Yii::app()->user->logout();
+        $this->redirect(Yii::app()->homeUrl);
+    }
 
 }

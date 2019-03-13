@@ -3,50 +3,47 @@
 class frm_registro extends CFormModel
 {
 
-    public $nom;
-    public $psw;
-    public $eml;
-    public $cps;
-    public $equ;
+    public $username;
+    public $name;
+    public $surname;
+    public $email;
+    public $password;
 
     public function rules()
     {
 
         return array(
-            array('nom', 'required'),
-            array('nom', 'validaUsuario'),
-            array('nom', 'encoding'),
-            array('nom', 'length', 'max' => 10),
+            array('username', 'required'),
+            //array('username', 'validaUsuario'),
+         //   array('username', 'encoding'),
+            array('username', 'length', 'max' => 10),
             ///
-            array('psw', 'required'),
-            array('psw', 'length', 'max' => 10),
-            array('psw', 'length', 'min' => 6),
-            array('cps', 'required'),
-            array('cps', 'compare', 'compareAttribute' => 'psw'),
+            array('name', 'required'),
             ///
-            array('eml', 'required'),
-            array('eml', 'email'),
-            array('eml', 'validaMail'),
-            array('eml', 'length', 'max' => 40),
+            array('surname', 'required'),
             ///
-            array('equ', 'required'),
-            array('equ', 'length', 'max' => 2),
+            array('email', 'required'),
+            array('email', 'email'),
+            //array('mail', 'validaMail'),
+            array('email', 'length', 'max' => 40),
             ///
+            array('password', 'length', 'max' => 10),
+            array('password', 'length', 'min' => 6),
         );
     }
 
     public function attributeLabels()
     {
         return array(
-            'nom' => 'Nombre',
-            'psw' => 'Contraseña',
-            'cps' => 'Repetir Contraseña',
-            'eml' => 'Email',
-            'equ' => 'Equipo',
+            'username' => 'Usuario',
+            'name' => 'Nombre',
+            'surname' => 'Apellido',
+            'email' => 'Email',
+            'password' => 'Contraseña',
         );
     }
 
-    public function validaUsuario($attribute)
+   /* public function validaUsuario($attribute)
     {
         if ($this->nom != ''):
             if (preg_match('/á|é|í|ó|ú|Á|É|Í|Ó|Ú|à|è|ì|ò|ù|À|È|Ì|Ò|Ù|ä|ë|ï|ö|ü|Ä|Ë|Ï|Ö|Ü|â|ê|î|ô|û|Â|Ê|Î|Ô|Û|ý|Ý|ÿ/', $this->nom) > 0):
@@ -87,6 +84,6 @@ class frm_registro extends CFormModel
         if (sistema::validar_encoding($this->$attribute) == false):
             $this->addError($attribute, $this->getAttributeLabel($attribute) . ' contiene caracteres no válidos.');
         endif;
-    }
+    }*/
 
 }

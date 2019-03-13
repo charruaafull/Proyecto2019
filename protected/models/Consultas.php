@@ -43,4 +43,32 @@ class Consultas
         return sistema::getFilas($sql);
     }
 
+    public static function nuevoUsuario($username, $nombre, $apellido, $email, $password)
+    {
+        $sql = "Insert Into " .
+            "Usu_Tbl " .
+            "(" .
+            "Use_Usu," .
+            "Nom_Usu," .
+            "Ape_Usu," .
+            "Eml_Usu," .
+            "Psw_Usu" .
+            ") " .
+            "VALUES " .
+            "(" .
+            "'$username'," .
+            "'$nombre'," .
+            "'$apellido'," .
+            "'$email'," .
+            "'$password'" .
+            ")";
+        return sistema::execute($sql);
+    }
+
+    public static function getCuenta($username, $password)
+    {
+        $sql = "Select * From Usu_Tbl Where Use_Usu = '$username' and Psw_Usu = '$password'";
+        return sistema::getFila($sql);
+    }
+
 }

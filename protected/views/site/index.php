@@ -48,23 +48,26 @@
                         <div class="thumbnail">
                             <h5 class="text-center"><span class="badge badge-info"><?php echo $Lp['Nom_Lin']; ?></span>
                             </h5>
+                            <div class="col-lg-12 col-12 text-center name-product">
+                                <?php echo $Lp['Nom_Pro']; ?>
+                            </div>
                             <img src="http://placehold.it/650x450&text=Galaxy S5" class="img-fluid">
                             <div class="caption">
                                 <div class="row">
-                                    <div class="col-md-12 col-xs-6 text-center name-product">
-                                        <?php echo $Lp['Nom_Pro']; ?>
-                                    </div>
-                                    <div class="col-md-12 col-xs-6 price text-right">
-                                        $ <?php echo $Lp['Pre_Pro']; ?>
+                                    <div class="col-lg-12 col-12 price text-center">
+                                        <div class="badge badge-warning">$ <?php echo $Lp['Pre_Pro']; ?></div>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-6 col-6">
-                                        <button class="btn btn-block btn-info">Ver detalle</button>
+                                    <div class="col-md-6 col-6 text-right">
+                                        <button class="btn btn-info"><span
+                                                    class="d-none d-sm-inline-block">Detalle</span> <i
+                                                    class="fa fa-binoculars"></i></button>
                                     </div>
-                                    <div class="col-md-6 col-6">
+                                    <div class="col-md-6 col-6 text-left">
                                         <button tag="lnk-add" idProd="<?php echo $Lp['Id_Pro']; ?>"
-                                                class="btn btn-block btn-success">Agregar <i
+                                                class="btn btn-success"><span
+                                                    class="d-none d-sm-inline-block">Comprar</span> <i
                                                     class="fa fa-shopping-cart"></i>
                                         </button>
                                     </div>

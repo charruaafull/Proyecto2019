@@ -40,7 +40,7 @@ $products = Yii::app()->session['PROD'];
                 $tot = 0;
                 if (isset($products) && count($products) > 0):
                     foreach ($products as $pro):
-                        $tot += $pro['Pre_Pro']; ?>
+                        $tot += $pro['Pre_Pro'] * $pro['Cant']; ?>
                         <div class="row" divProd="<?php echo $pro['Id_Pro']; ?>">
                             <div class="col-lg-9 col-4">
                                 <div class="row">
@@ -62,7 +62,7 @@ $products = Yii::app()->session['PROD'];
                                     <div class="col-lg-3 col-4 text-center">
                                         <input type="text" maxlength="1" tag="inpPro"
                                                idProd="<?php echo $pro['Id_Pro']; ?>" class="form-control input-sm"
-                                               value="1">
+                                               value="<?php echo $pro['Cant']; ?>">
                                     </div>
                                     <div class="col-lg-3 col-4 align-self-center text-center">
                                         <a href="#" class="text-dark" tag="lnk-del"

@@ -7,7 +7,11 @@
                         Tienda.com
                     </div>
                     <div class="col-lg-6 col-6 text-right">
-                        Bienvenido: Usuario <i class="fa fa-user"></i>
+                        <?php if (isset(Yii::app()->session['USU'])): ?>
+                            Bienvenido: <?php echo Yii::app()->session['USU']['Nom_Usu']; ?> <i class="fa fa-user"></i>
+                            -
+                            <a class="text-dark" href="logout">Desconectar</a>
+                        <?php endif; ?>
                     </div>
                 </div>
             </div>
@@ -21,7 +25,11 @@
                         <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/logo.png" class="img-fluid">
                     </div>
                     <div class="col-lg-6 col-4 text-right align-self-center">
-                        <a class="text-dark" href="cart">Carrito (<span id="cantCart"><?php echo count($_SESSION['PROD']); ?></span>) <i class="fa fa-shopping-cart"></i></a>
+                        <?php if (isset(Yii::app()->session['USU'])): ?>
+                            <a class="text-dark" href="cart">Carrito (<span
+                                        id="cantCart"><?php echo (isset($_SESSION['PROD'])) ? count($_SESSION['PROD']) : 0; ?></span>)
+                                <i class="fa fa-shopping-cart"></i></a>
+                        <?php endif; ?>
                     </div>
                 </div>
             </div>
@@ -48,8 +56,14 @@
                                                 <li class="nav-item">
                                                     <a class="nav-link" name="inicio" href="./">Inicio</a>
                                                 </li>
+                                                <?php if (!isset(Yii::app()->session['USU'])): ?>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" name="registro" href="register">Registro</a>
+                                                    </li>
+                                                <?php endif; ?>
                                                 <li class="nav-item">
-                                                    <a class="nav-link" name="carrito" href="cart">Carrito de Compras</a>
+                                                    <a class="nav-link" name="carrito" href="cart">Carrito de
+                                                        Compras</a>
                                                 </li>
                                                 <li class="nav-item">
                                                     <a class="nav-link" name="contacto" href="contacto">Contacto</a>

@@ -60,7 +60,8 @@ body{
 
 .price{
     font-weight: 600;
-    font-size: 13px;
+    font-size: 14px !important;
+    padding-bottom: 10px;
 }
 
 .thumbnail{
@@ -84,4 +85,11 @@ body{
 /* Footer */
 .footer{
     margin-top:20px;
+}
+
+/* Errores Input */
+
+.input-error{
+    color: red;
+    font-style: 11px;
 }

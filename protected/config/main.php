@@ -30,7 +30,13 @@ return array(
                 'ViewProducts' => 'site/ViewProducts',
                 'Cart' => 'site/Cart',
                 'AddProduct' => 'site/AddProduct',
-                'DeleteProductCart' => 'site/DeleteProductCart'
+                'DeleteProductCart' => 'site/DeleteProductCart',
+                'ChangeCantidad' => 'site/ChangeCantidad',
+                'Register' => 'site/Register',
+                'ValidaRegistro' => 'site/ValidaRegistro',
+                'Login' => 'site/Login',
+                'AjaxValidaLogin' => 'site/AjaxValidaLogin',
+                'Logout' => 'site/Logout'
             ),
         ),
         // database settings are configured in database.php
