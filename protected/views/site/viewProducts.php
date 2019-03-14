@@ -26,7 +26,9 @@
                     </div>
                     <div class="row">
                         <div class="col-md-6 col-6 text-right">
-                            <button class="btn btn-info">Detalle <i class="fa fa-binoculars"></i></button>
+                            <button class="btn btn-info" tag="lnk-det" idProd="<?php echo $Lp['Id_Pro']; ?>"><span
+                                        class="d-none d-sm-inline-block">Detalle</span> <i
+                                        class="fa fa-binoculars"></i></button>
                         </div>
                         <div class="col-md-6 col-6 text-left">
                             <button tag="lnk-add" idProd="<?php echo $Lp['Id_Pro']; ?>"

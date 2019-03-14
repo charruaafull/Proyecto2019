@@ -50,7 +50,7 @@
     <div class="card-footer">
         <div class="row">
             <div class="col-lg-12 text-right">
-                <button class="btn btn-success" id="btn-send">Enviar Mensaje</button>
+                <button class="btn btn-success" id="btn-send">Confirmar</button>
             </div>
         </div>
     </div>

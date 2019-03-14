@@ -28,7 +28,7 @@ $(function () {
 
     /* Productos */
 
-    $('body').delegate('[tag=lnk-add]', 'click', function (e) {
+    $('[tag=lnk-add]').click(function (e) {
         var idProd = $(this).attr('idProd');
         AddProduct(idProd);
         e.preventDefault();
