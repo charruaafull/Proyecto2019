@@ -28,7 +28,7 @@ $(function () {
 
     /* Productos */
 
-    $('body').delegate('[tag=lnk-add]', 'click', function (e) {
+    $('[tag=lnk-add]').click(function (e) {
         var idProd = $(this).attr('idProd');
         AddProduct(idProd);
         e.preventDefault();
@@ -43,7 +43,6 @@ $(function () {
             success: function (data) {
                 if (data) {
                     $('#cantCart').html(data);
-                    $('#mdl-product').modal('hide');
                 } else {
                     window.location.assign("login");
                 }

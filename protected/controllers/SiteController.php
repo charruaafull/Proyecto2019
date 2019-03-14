@@ -28,7 +28,8 @@ class SiteController extends Controller
                     'ValidaRegistro',
                     'Login',
                     'AjaxValidaLogin',
-                    'Logout'
+                    'Logout',
+                    'ViewProduct'
                 ),
                 'users' => array('*'),
             ),
@@ -86,6 +87,17 @@ class SiteController extends Controller
             $listProducts = Consultas::getProductos($cat, $pag);
             $totProducts = Consultas::getTotalProductos($cat);
             $res = $this->renderPartial('viewProducts', array('listProducts' => $listProducts, 'totProducts' => $totProducts, 'nomCat' => $nomCat, 'nroCat' => $cat, 'nroPag' => $pag), true);
+            echo CJSON::encode($res);
+        endif;
+    }
+
+
+    public function actionViewProduct()
+    {
+        if (Yii::app()->request->getParam('idProd')):
+            $id = Yii::app()->request->getParam('idProd');
+            $pro = Consultas::getProducto($id);
+            $res = $this->renderPartial('viewProduct', array('pro' => $pro), true);
             echo CJSON::encode($res);
         endif;
     }

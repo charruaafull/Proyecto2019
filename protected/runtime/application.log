@@ -8118,3 +8118,109 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
 ---
+2019/03/14 10:23:11 [error] [php] Undefined variable: Lp (C:\xampp7\htdocs\Proyecto\protected\views\site\viewProduct.php:30)
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp7\htdocs\Proyecto\protected\controllers\SiteController.php(100): SiteController->renderPartial()
+#2 C:\xampp7\htdocs\Proyecto\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionViewProduct()
+#3 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CFilterChain.php(133): SiteController->runAction()
+#5 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#8 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#11 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#12 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp7\htdocs\Proyecto\index.php(7): CWebApplication->run()
+REQUEST_URI=/Proyecto/ViewProduct
+in C:\xampp7\htdocs\Proyecto\protected\views\site\viewProduct.php (30)
+in C:\xampp7\htdocs\Proyecto\protected\controllers\SiteController.php (100)
+in C:\xampp7\htdocs\Proyecto\index.php (7)
+2019/03/14 10:23:12 [error] [php] Undefined variable: Lp (C:\xampp7\htdocs\Proyecto\protected\views\site\viewProduct.php:30)
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp7\htdocs\Proyecto\protected\controllers\SiteController.php(100): SiteController->renderPartial()
+#2 C:\xampp7\htdocs\Proyecto\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionViewProduct()
+#3 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CFilterChain.php(133): SiteController->runAction()
+#5 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CInlineFilter.php(58): SiteController->filterAccessControl()
+#8 C:\xampp7\htdocs\Proyecto\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp7\htdocs\Proyecto\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#11 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#12 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp7\htdocs\Proyecto\index.php(7): CWebApplication->run()
+REQUEST_URI=/Proyecto/ViewProduct
+in C:\xampp7\htdocs\Proyecto\protected\views\site\viewProduct.php (30)
+in C:\xampp7\htdocs\Proyecto\protected\controllers\SiteController.php (100)
+in C:\xampp7\htdocs\Proyecto\index.php (7)
+2019/03/14 10:23:34 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/14 10:24:17 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/14 10:24:39 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/14 10:25:00 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/14 10:25:15 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/14 10:25:45 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/14 10:26:20 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/14 10:26:32 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---

@@ -43,7 +43,6 @@ $(function () {
             success: function (data) {
                 if (data) {
                     $('#cantCart').html(data);
-                    $('#mdl-product').modal('hide');
                 } else {
                     window.location.assign("login");
                 }

@@ -36,7 +36,8 @@ return array(
                 'ValidaRegistro' => 'site/ValidaRegistro',
                 'Login' => 'site/Login',
                 'AjaxValidaLogin' => 'site/AjaxValidaLogin',
-                'Logout' => 'site/Logout'
+                'Logout' => 'site/Logout',
+                'ViewProduct' => 'site/ViewProduct'
             ),
         ),
         // database settings are configured in database.php

@@ -60,7 +60,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-md-6 col-6 text-right">
-                                        <button class="btn btn-info"><span
+                                        <button class="btn btn-info" tag="lnk-det" idProd="<?php echo $Lp['Id_Pro']; ?>"><span
                                                     class="d-none d-sm-inline-block">Detalle</span> <i
                                                     class="fa fa-binoculars"></i></button>
                                     </div>
@@ -77,6 +77,17 @@
                     </div>
                 <?php endforeach; ?>
             </div>
+        </div>
+    </div>
+</div>
+
+<!-- The Modal -->
+<div class="modal fade" id="mdl-product">
+    <div class="modal-dialog">
+        <div class="modal-content" id="body-product">
+
+
+
         </div>
     </div>
 </div>
