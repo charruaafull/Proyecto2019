@@ -8314,3 +8314,27 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
 ---
+2019/03/14 14:46:31 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/14 14:52:40 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "css/bootstrap.min.css.map" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/css/bootstrap.min.css.map
+---
+2019/03/15 09:25:42 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "03 - abm.php" in C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp7\htdocs\Proyecto\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('03 - abm.php')
+#1 C:\xampp7\htdocs\Proyecto\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp7\htdocs\Proyecto\index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/Proyecto/03%20-%20abm.php
+---
